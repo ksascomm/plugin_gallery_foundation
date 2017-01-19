@@ -129,7 +129,7 @@ class foundation_clearing_gallery_replacement {
 
             $output .= "<li class='gallery-item'>";
             $output .= "<a href='{$full_image[0]}'>";
-            $output .= "<img src='{$thumbnail[0]}' data-caption='{$caption}' />";
+            $output .= "<img src='{$thumbnail[0]}' data-caption='{$caption}' alt='{$caption}' />";
             $output .= "</a>" ;
             $output .= "</li>";
         }
